@@ -426,10 +426,10 @@ main section hr , footer hr{ width: 50px; height: 2px; border: 0 }
 #jak {background: url('img/jak.jpg') top/cover;}
 #bear {background: url('img/beard.jpg') top/cover;}
 #ibra { background: url('img/ibra.jpg') top/cover;}
-#ldive1{background: url('img/cnn.png') center/cover; width: 15%; height: 96px; margin:25px;}
-#ldive2{background: url('img/tc.png') center/cover; width: 15%; height: 90px;margin:25px;}
-#ldive3{background: url('img/bbc.png') center/cover; width: 25%; height: 90px; margin:25px;}
-#ldive4{background: url('img/ny.png') center/cover; width: 45%; height: 90px; margin: 25px;}
+#ldive1{background: url('img/cnn.png') center/cover; width: 100px; height: 48px; margin:auto}
+#ldive2{background: url('img/tc.png') center/cover; width: 94px; height: 48px;margin:auto;}
+#ldive3{background: url('img/bbc.png') center/cover; width: 165px; height: 48px; margin:auto;}
+#ldive4{background: url('img/ny.png') center/cover; width: 335px; height: 48px; margin: auto;}
 .fa-basketball-ball {color: #de7a9b}
 .fa-behance { color: #0061ff;}
 .fa-twitter { color: #0cafeb;}
@@ -485,5 +485,8 @@ main section hr , footer hr{ width: 50px; height: 2px; border: 0 }
     .rectxt{
         font-size: 1em;
     }
-    #ldiv{flex-direction: row;}
+    #ldiv{
+    flex-direction: row;    
+    }
+    
 }
