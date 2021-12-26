@@ -1,0 +1,489 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap');
+:root {
+    --green: #54d154;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    background: url('img/background.jpg') center/cover;
+}
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav ul li {
+    text-align: center;
+    padding: 5px 0;
+    margin: 0 10px;
+}
+nav ul li a {
+    font: bold 1em Roboto;
+    color: #fff;
+}#title { text-align: center }
+h1 {
+    font: bold 2em Montserrat;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+}
+h2 {
+    font: 1em Montserrat;
+    text-align: center;
+    text-transform: uppercase;
+}
+h3{
+    font: 700 1.5em Roboto;
+    text-align: center;
+    padding: 30px;
+}
+h6 {
+    font: 1em Montserrat;
+    color: #b7b3b3;
+    text-align: center;
+    padding-bottom: 70px;
+}
+.h62{
+    font-size: 300 1em Roboto;
+    color: #2b9b2b;
+    text-align: center;
+}
+main section { 
+    padding: 40px 0 70px 0;
+}
+main section hr , footer hr{ width: 50px; height: 2px; border: 0 } 
+.btn1 {
+    background: var(--green);
+    font: 1em Roboto;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 25px;
+    border: 0;
+    outline: 0;
+    border-radius: 25px;
+    margin: auto;
+    display: block;
+}
+#btn2 {
+    background: #FFFFFFAA;
+    font: 1em Roboto;
+    color: #111;
+    text-transform: lowercase;
+    padding: 5px 10px;
+    border: 0;
+    outline: 0;
+    border-radius: 15px;
+    margin: 15px;
+}
+.btn3{
+    background: var(--green);
+    font: 700 1em Roboto;
+    color: #fff;
+    padding: 6px 15px;
+    border: 0;
+    outline: 0;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+}
+#btn4{
+    font-size: 1em Roboto;
+    color: #ffffff;
+    text-align: center;
+    background-color: #207b20;
+    border: 0;
+    outline: 0;
+    border-radius: 15px 0 0 15px;
+
+}
+#btn5{
+    font-size: 1em Roboto;
+    color: #207b20;
+    text-align: center;
+    padding: 7px 20px;
+    background-color: #fff;
+    border: 1px solid #207b20;
+    outline: 0;
+}
+#btn6{
+    font-size: 1em Roboto;
+    color: #207b20;
+    text-align: center;
+    padding: 7px 20px;
+    background-color: #fff;
+    border: 1px solid #207b20;
+    border-radius: 0 15px 15px 0;
+    outline: 0;
+}
+#btn7{
+    font: 1em Roboto;
+    color: #a59d9d;
+    margin: auto;
+    text-align: center;
+    padding: 7px 20px;
+    background-color: #dddcdc;
+    border: 0;
+    border-radius: 15px;
+    outline: 0;
+    display: block;
+}
+#imgbut{
+    background: #207b20;
+    font: 1em Roboto;
+    color: #fff;
+    margin-top: 30px;
+    text-transform: uppercase;
+    padding: 10px 25px;
+    border: 0;
+    outline: 0;
+    border-radius: 25px;
+    display: block;
+}
+.s1{
+    font: 300 1em Montserrat;
+    color: #828181;
+    text-align: center;
+    padding-bottom: 25px;
+}
+.button{
+    display:flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+}
+#search {
+    background: #FFFFFFAA url('img/search.png') 95% no-repeat;
+    font: 1em Roboto;
+    color: #111;
+    padding: 5px 10px;
+    border: 0;
+    outline: 0;
+    border-radius: 15px;
+    margin: 5px 30px;    
+}
+.box{
+    width: 160px;
+    height: 160px;
+    background-color: #e0f3e0;
+    border: 0;
+    outline: 0;
+    border-radius: 40px;
+    margin: auto;
+}
+.box .fas{
+    font-size: 5em;
+    color: var(--green);
+    display: block;
+    padding: 30px;
+}
+.testo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+}
+.image{
+    display: flex;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 0;
+    margin: auto;
+}
+.img{
+    width: 200px;
+    height: 200px;
+    padding: 15px;
+}
+.xett1{
+    background: #FFFFFFAA url('') 95% no-repeat;
+    border: 0;
+    outline: 0;
+    font: 700 2em Roboto;
+    color:#434343;
+}
+.flex{
+   
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    align-content: space-around;
+}
+#herp{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
+}
+#herpimg{
+    width: 40px;
+    height: 40px;
+    border: 1px soid #ccc;
+    border-radius: 50%;
+    margin: auto;
+}
+#testop{
+    margin: auto;
+    text-align: center;
+    font-size: 700 1em Roboto;
+    color: #444;
+    padding-bottom: 30px;
+}
+.galery2 {
+    padding: 60px 35px;
+}
+#meet{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.sekil{
+    width: 140px;
+    height: 140px;
+    border: 0px;
+    border-radius: 50%;
+    margin: 20px;
+    display: block;
+}
+.icons3{
+    width: 90px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    background: #c5e9c5;
+    border: 0;
+    outline: 0;
+    border-radius: 15px;
+    margin: auto;
+    justify-content: space-between;
+    padding: 5px 4px;
+   
+}
+.line{
+    margin: auto;
+    display: block;
+}
+.ns{
+    padding: 20px;
+    font: 1em Roboto;
+    color: #fff;
+    text-align: center;
+}
+.footer{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.fp{
+    font: 1em Roboto;
+    color: #ccc;
+    text-align: center;
+}
+.fflex{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.recdiv{
+    display: flex;
+    flex-direction: row;
+}
+.recp{
+    display: flex;
+    flex-direction: column;
+}
+.rectxt{
+    margin: 15px 0 0 0;
+    font: 300 0.8em Montserrat;
+    color: #ccc;
+    text-align: center;
+}
+#mindiv1{
+    width: 90px;
+    height: 20px;
+    text-align: center;
+    border: 0px;
+    outline: 0px;
+    border-radius: 3px;
+    font: 300 0.75em Montserrat;
+}
+#mindiv2{
+    width: 90px;
+    height: 20px;
+    text-align: center;
+    border: 0px;
+    outline: 0px;
+    border-radius: 3px;
+    font: 300 0.75em Montserrat;
+}
+#mindiv3{
+    width: 130px;
+    height: 20px;
+    text-align: center;
+    border: 0px;
+    outline: 0px;
+    border-radius: 3px;
+    font: 300 0.75em Montserrat;
+}
+#mindiv4{
+    width: 70px;
+    height: 20px;
+    text-align: center;
+    border: 0px;
+    outline: 0px;
+    border-radius: 3px;
+    font: 300 0.75em Montserrat;
+}
+.pimg{
+    width: 55px;
+    height: 55px;
+    border: 0px;
+    outline: 0px;
+    border-radius: 3px;
+    margin: 10px;
+}
+#cp{
+    font: 300 .75em Roboto;
+    color: #ccc;
+    font-weight: 300;
+    text-align: center;
+}
+#input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#cin1{
+   width: 325px;
+   height: 35px;
+   background-color: #444;
+   border-radius: 5px 5px 0 0;
+   border: 0px;
+   outline: 0;
+   margin: 30px 0 0 0;
+   display: block;
+}
+#cin2{
+    width: 325px;
+    height: 35px;
+    background-color: #444;
+    border: 0px;
+    outline: 0;
+    margin: 5px 0 0 0;
+    display: block;
+ }
+ #cin3{
+    width: 325px;
+    height: 135px;
+    background-color: #444;
+    border: 0px;
+    outline: 0;
+    margin: 5px 0 0 0;
+    display: block;
+    font: 1em Roboto;
+    color: #777;
+ }
+ #fbut{
+    width: 325px;
+    height: 35px;
+    background-color: #2b9b2b;
+    color: #FFF;
+    text-transform: uppercase;
+    border: 0px;
+    outline: 0;
+    border-radius: 0 0 5px 5px;
+    margin: 3px 0 0 0;
+    display: block;
+ }
+#ldiv{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#rp1 {background: url('img/background.jpg') center/cover;}
+#rp2 {background: url('img/cay.jpg') center/cover ;}
+#rp3 {background: url('img/mismar.jpg') center/cover ;}
+#rp4 {background: url('img/gul.jpg') center/cover ;}
+#rp5 {background: url('img/bocek.jpg') center/cover ;}
+#garl { background: url('img/garlfield.jpg') top/cover;}
+#saroc { background: url('img/saroc.jpg') center/cover;}
+#jak {background: url('img/jak.jpg') top/cover;}
+#bear {background: url('img/beard.jpg') top/cover;}
+#ibra { background: url('img/ibra.jpg') top/cover;}
+#ldive1{background: url('img/cnn.png') center/cover; width: 15%; height: 96px; margin:25px;}
+#ldive2{background: url('img/tc.png') center/cover; width: 15%; height: 90px;margin:25px;}
+#ldive3{background: url('img/bbc.png') center/cover; width: 25%; height: 90px; margin:25px;}
+#ldive4{background: url('img/ny.png') center/cover; width: 45%; height: 90px; margin: 25px;}
+.fa-basketball-ball {color: #de7a9b}
+.fa-behance { color: #0061ff;}
+.fa-twitter { color: #0cafeb;}
+.fa-facebook { color: #1d52aa;}
+.g{background:#53d153}
+.y{background:#ffba00}
+.b{background:#089cea}
+.o{background:#f34c03}
+.p30{ padding: 30px 0;}
+.grayt { color: #828282 }
+.ldgrayt { color: #ccc }
+.greenbg { background: var(--green) }
+.graybg { background: #f1f1f1 }
+.dgraybg { background: #828282 }
+.ddgraybg { background: #333 }
+.dddgraybg { background: #212121 }
+.ddddgraybg { background: #101010 }
+.ddddgrayt { color: #101010 }
+.whitebg { background: #FFF }
+.whitetxt { color: #FFF }
+.dgreent{color:#207b20}
+.dgreenbg{background:#207b20}
+@media only screen and (min-width: 768px) {
+    .container { max-width: 1170px; margin: auto }
+    h1 { font-size: 3.4em; }
+    #btn1 { font: 1.4em }
+    nav {
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+    }
+    nav ul { order: -1; display: flex }
+    nav ul li {
+        border-top: 5px solid #00000000;
+    }
+    nav ul li:hover, .active {
+        border-top: 5px solid var(--green)
+    }
+    .row { display: flex;}
+    #testop{
+        padding: 0 300px;
+    }
+    .flex{
+        flex-direction: row;
+        max-width: 920px;
+    }
+    .fp{
+        padding: 30px 50px;
+    }
+    .fflex{
+        width: 33%;
+    }
+    .rectxt{
+        font-size: 1em;
+    }
+    #ldiv{flex-direction: row;}
+}
